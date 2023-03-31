@@ -122,7 +122,7 @@ body {
 }
 
 .blue {
-  background: #23A6F0;
+  background: #23a6f0;
   color: #fff;
   border-radius: 37px;
   padding: 15px 36px;
@@ -287,7 +287,7 @@ body {
 .section4 {
   width: 80%;
   margin: 0 auto;
-  padding: 100px 0 60px 0;
+  padding: 100px 0 60px;
 }
 
 .faq {
@@ -325,7 +325,7 @@ body {
   padding: 15px;
   border-radius: 5px;
   background: #fff;
-  display: flex; 
+  display: flex;
 }
 
 .flex-row:hover {
@@ -352,7 +352,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #252b42;
-
 }
 
 .card-items h6 {
@@ -414,7 +413,7 @@ body {
   width: 33%;
   height: fit-content;
   margin: 0 auto;
-  background: #23A6F0 !important;
+  background: #23a6f0 !important;
   color: #fff;
   padding: 65px 0 50px !important;
   border-radius: 5px;
@@ -423,7 +422,7 @@ body {
 }
 
 .box1 h3 {
-  color: #252B42;
+  color: #252b42;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
@@ -447,6 +446,7 @@ body {
   color: #737373;
   padding-bottom: 40px;
 }
+
 .box2 h5 {
   max-width: 150px;
   text-align: center;
@@ -460,7 +460,7 @@ body {
 .index-notation {
   text-align: center;
   font-weight: 700;
-  color: #23A6F0;
+  color: #23a6f0;
   padding: 10px 0;
   display: flex;
 }
@@ -480,18 +480,19 @@ body {
 .indice {
   display: flex;
   flex-direction: column;
-} 
+}
 
 .indice p,
 .index-notation1 p {
   font-size: 16px;
- }
+}
 
 .indice h6 {
   font-size: 14px;
   font-weight: 600;
-  color: #23A6F0;
+  color: #23a6f0;
 }
+
 .index-notation1 h6 {
   font-size: 14px;
   font-weight: 600;
@@ -517,13 +518,13 @@ body {
 }
 
 .green-circles i {
-  color: #2DC071;
+  color: #2dc071;
   font-weight: 30px;
   padding: 15px;
 }
 
 .gray-circles i {
-  color: #BDBDBD;
+  color: #bdbdbd;
   padding: 15px;
 }
 
@@ -532,68 +533,121 @@ body {
   border: none;
   border-radius: 5px;
   align-self: center;
-  background: #23A6F0;
+  background: #23a6f0;
 }
 
-  .try-for-free1 {
-    padding: 15px 40px;
-    border: none;
-    border-radius: 5px;
-    align-self: center;
-    background: #fff;
-    color: #23A6F0;
-  }
+.try-for-free1 {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  background: #fff;
+  color: #23A6F0;
+}
 
-  .try-for-free1:hover {
-    transform: translateY(3px);
-  }
+.try-for-free1:hover {
+  transform: translateY(3px);
+}
 
-  .try-for-free:hover {
-    transform: translateY(3px);
-  }
+.try-for-free:hover {
+  transform: translateY(3px);
+}
 
-  .section6 {
-    width: 80%;
-    padding: 50px 0;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.section6 {
+  width: 80%;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .get-in {
-    width: 47%;
-  }
+.get-in {
+  width: 47%;
+}
 
-  .get-in h2 {
-    font-size: 40px;
-    font-weight: 700;
-  }
+.get-in h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
 
-  .get-in p {
-    font-size: 14pxpx;
-    font-weight: 500;
-  }
+.get-in p {
+  font-size: 14px;
+  font-weight: 500;
+}
 
-  .btn {
-    width: 45%;
-    display: flex;
-    justify-content: end;
-  }
+.btn {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
 
-  .email {
-    padding: 15px 110px 15px 15px;
-    color: #000;
-    background: #fff;
-    border: none;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-  }
+.email {
+  padding: 15px 110px 15px 15px;
+  color: #000;
+  background: #fff;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
 
-  .suscribe {
-    padding: 15px 30px;
-    color: #fff;
-    background: #23a6f0;
-    border: none;
-    border-end-end-radius: 5px;
-  }
+.suscribe {
+  padding: 15px 30px;
+  color: #fff;
+  background: #23a6f0;
+  border: none;
+  border-end-end-radius: 5px;
+}
+
+.suscribe:hover {
+  opacity: 0.8;
+}
+
+.email:hover {
+  opacity: 0.8;
+}
+
+.section7 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  width: 30%
+}
+
+.col1 h2 {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.col1 p {
+  line-height: 35px;
+  padding-bottom: 15px;
+}
+
+.col1 i {
+  color: #23a6f0;
+  padding: 0 5px;
+  font-size: 25px;
+}
+
+.a-tags {
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  justify-content: space-between;
+}
+
+.a-tags a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.a-tags a:hover {
+  text-decoration: underline;
+}
