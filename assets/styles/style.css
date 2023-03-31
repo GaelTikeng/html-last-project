@@ -59,6 +59,15 @@ body {
   padding: 17px 0;
 }
 
+.tags a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tags a:hover {
+  text-decoration: underline;
+}
+
 .navbar-nav li a {
   padding: 0 5px;
   color: #fff;
@@ -670,10 +679,7 @@ body {
   justify-content: space-between;
 }
 
-.tags a {
-  color: #fff;
-  text-decoration: none;
-}
+
 
 .tags a:hover {
   text-decoration: underline;
@@ -711,7 +717,7 @@ body {
     width: 100%;
     display: block;
   }
-  
+
   .row,
   .woman {
     width: 96vw;
