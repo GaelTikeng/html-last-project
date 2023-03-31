@@ -679,12 +679,6 @@ body {
   justify-content: space-between;
 }
 
-
-
-.tags a:hover {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 768px) {
   .navbar {
     display: none;
