@@ -106,17 +106,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .row h1 {
-  max-width: 573px;
+  max-width: 80%;
   font-size: 58px;
   font-weight: 700;
   padding-bottom: 40px;
 }
 
 .row h4 {
-  max-width: 376px;
+  max-width: 60%;
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 20px;
@@ -468,12 +469,16 @@ body {
   color: #23a6f0;
   padding: 10px 0;
   display: flex;
+  justify-content: center;
+
 }
 
 .index-notation1 {
   text-align: center;
   font-weight: 700;
   padding: 10px 0;
+  display: flex;
+  justify-content: center;
   color: #fff !important;
 }
 
@@ -485,6 +490,7 @@ body {
 .indice {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .indice p,
@@ -547,7 +553,7 @@ body {
   border-radius: 5px;
   align-self: center;
   background: #fff;
-  color: #23A6F0;
+  color: #23a6f0;
 }
 
 .try-for-free1:hover {
@@ -621,7 +627,7 @@ body {
 }
 
 .col1 {
-  width: 30%
+  width: 30%;
 }
 
 .col1 h2 {
@@ -641,18 +647,18 @@ body {
   font-size: 25px;
 }
 
-.a-tags {
+.tags {
   display: flex;
   flex-direction: column;
   line-height: 35px;
   justify-content: space-between;
 }
 
-.a-tags a {
+.tags a {
   color: #fff;
   text-decoration: none;
 }
 
-.a-tags a:hover {
+.tags a:hover {
   text-decoration: underline;
 }
