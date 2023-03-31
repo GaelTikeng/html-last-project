@@ -594,6 +594,10 @@ body {
   font-weight: 700;
 }
 
+.get-in h5 {
+  display: none;
+}
+
 .get-in p {
   font-size: 14px;
   font-weight: 500;
@@ -807,4 +811,22 @@ body {
   .btn {
     display: none;
   }
+
+  /* section 6 */
+
+  .get-in {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .get-in h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .get-in p {
+    display: none;
+  }
+
+  
 }
