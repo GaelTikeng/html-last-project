@@ -408,7 +408,7 @@ body {
   height: fit-content;
   margin: 0 auto;
   display: flex;
-  padding: 30px 0 10px;
+  padding: 10px;
   align-items: flex-end;
 }
 
@@ -422,6 +422,10 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+}
+
+.blue-image {
+  display: none;
 }
 
 .box2 {
@@ -479,7 +483,6 @@ body {
   padding: 10px 0;
   display: flex;
   justify-content: center;
-
 }
 
 .index-notation1 {
@@ -680,7 +683,7 @@ body {
   .mobile-nav {
     display: flex;
     justify-content: space-around;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 20px;
   }
 
   .iterms {
@@ -791,7 +794,17 @@ body {
     margin: 0 auto;
   }
 
+  .blue-image {
+    display: unset;
+    width: 50%;
+    padding-left: 120px;
+  }
+
   .box2 {
     width: 100%;
+  }
+
+  .btn {
+    display: none;
   }
 }
