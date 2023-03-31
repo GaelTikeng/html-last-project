@@ -64,16 +64,16 @@ body {
   text-decoration: none;
 }
 
-.tags a:hover {
-  text-decoration: underline;
-}
-
 .navbar-nav li a {
   padding: 0 5px;
   color: #fff;
   text-decoration: none;
   list-style: none;
   font-size: 16px;
+}
+
+.tags a:hover {
+  text-decoration: underline;
 }
 
 .navbar-nav li a:hover {
